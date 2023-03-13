@@ -1,0 +1,4 @@
+x=['apple','banana','dog','cat']
+y=tuple(x)
+print(x)
+print(y)
