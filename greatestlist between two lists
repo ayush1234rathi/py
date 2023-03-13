@@ -1,0 +1,8 @@
+x=['apple','banana','dog','cat']
+y=[1,3,5,5,7,8,9]
+if len(x)>len(y):
+    print("X ")
+elif len(x)==len(y):
+    print("EQUAL")
+else:
+    print("Y")
