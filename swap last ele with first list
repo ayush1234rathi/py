@@ -1,0 +1,6 @@
+x=['apple','banana','dog','cat']
+print(x)
+t=x[0]
+x[0]=x[-1]
+x[-1]=t
+print(x)    
