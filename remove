@@ -1,0 +1,4 @@
+x=['apple','banana','dog','cat']
+print(x)
+x.remove(x[2])
+print(x)
