@@ -1,0 +1,7 @@
+x=[12,43,56,78,34,23,67]
+print(x)
+y=int(input())
+if y in x:
+    print("yes")
+else:
+    print("no")
