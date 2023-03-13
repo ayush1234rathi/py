@@ -1,0 +1,4 @@
+x=['apple','banana','dog','cat']
+rev_x=x[::-1]
+print(x)
+print(rev_x)
