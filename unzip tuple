@@ -1,0 +1,3 @@
+x=('apple','banana','dog','cat')
+print(x)
+print(*x)
