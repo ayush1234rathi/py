@@ -1,0 +1,13 @@
+n=input("Enter s for sunday, m for monday, t for tuesday,w for wednesday, th for thursday, f for friday ,sat for saturday\n")
+m=int(input())
+if n=="t" or n=="m" or n=="th" or n=="w" or n=="f" :
+    if m>=40 and m<=60:
+        print("inclusive")
+    else:
+        print("false")
+elif n=="sat" or n=="s":
+    if m>=40:
+        print("true")
+    else:
+        print("false")
+    
