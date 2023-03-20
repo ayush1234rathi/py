@@ -1,0 +1,10 @@
+q=int(input("goal"))
+w=int(input("small"))
+e=int(input("big"))
+e=e*5
+if q>w+e:
+    print(-1)
+else:
+    q=q-e
+    w=w-q
+    print(w)
