@@ -1,0 +1,9 @@
+c=0
+q=0
+l=[12,43,54,76,'a','d','g',2]
+for i in l:
+    if str(i).isdigit():
+        c=c+1
+    elif str(i).isalpha():
+        q=q+1
+print(c,q)
