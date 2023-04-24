@@ -1,0 +1,4 @@
+l=list(map(int,input().split()))
+x=random.shuffle(l)
+y=lambda x:print(x)
+print(y(l))
